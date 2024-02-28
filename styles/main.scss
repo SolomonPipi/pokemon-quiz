@@ -1,0 +1,46 @@
+.header {
+  &__branding {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  &__logo {
+    width: 5%;
+  }
+}
+
+.main {
+  &__img-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__question {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__answers {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &__answer {
+    width: 10rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: aqua;
+    color: white;
+    font-weight: 600;
+  }
+
+  &__result {
+    display: flex;
+    justify-content: center;
+  }
+}
+body {
+  background-image: url(/assets/images/pokedex\ background.jpeg);
+}

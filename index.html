@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Poké Quiz</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"
+      defer
+    ></script>
+    <script src="./pokemon.js" defer></script>
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
     <header class="header">
@@ -14,9 +20,19 @@
             alt="pokeball logo"
             class="header__logo"
           />
+          <h1 class="header__title">Pokemon Quiz</h1>
         </div>
-        <h1 class="header__title">Pokemon Quiz</h1>
       </div>
     </header>
+    <main class="main">
+      <div class="main__container">
+        <div class="main__img-container"></div>
+      </div>
+      <div class="main__answers"></div>
+
+      <div class="main__response"></div>
+      </div>
+   
+    </main>
   </body>
 </html>
